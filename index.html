@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WarMaps2</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson-client@3"></script>
+</head>
+<body>
+  <header class="timeline">
+    <div class="year-dock" id="yearDock" aria-hidden="true"></div>
+    <input
+      id="yearSlider"
+      class="year-slider"
+      type="range"
+      min="24"
+      max="2024"
+      step="1"
+      value="2024"
+      aria-label="Select year"
+    />
+  </header>
+
+  <main>
+    <div class="map-container">
+      <svg id="map" role="img" aria-label="World map showing conflicts"></svg>
+      <div id="tooltip" class="tooltip" role="tooltip" aria-hidden="true"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
