@@ -100,7 +100,7 @@ header.timeline {
   border-radius: 12px;
   font-size: 13px;
   line-height: 1.4;
-  pointer-events: auto;
+  pointer-events: none;
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.2s ease, transform 0.2s ease;
