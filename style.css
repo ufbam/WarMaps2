@@ -24,7 +24,7 @@ header.timeline {
   position: sticky;
   top: 0;
   background: #ffffff;
-  padding: 16px 6vw 8px;
+  padding: 16px 6vw 18px;
   z-index: 10;
   border-bottom: 1px solid #e6e6e6;
 }
@@ -80,7 +80,7 @@ header.timeline {
 .map-container {
   position: relative;
   width: 100%;
-  height: calc(100vh - 110px);
+  height: calc(100vh - 130px);
 }
 
 #map {
