@@ -44,7 +44,16 @@ const seedConflicts = [
     activeStart: 1939,
     activeEnd: 1945,
     type: "interstate",
-    participants: ["Germany", "France", "United Kingdom", "Italy", "Japan", "Russia", "China"],
+    participants: [
+      "Germany",
+      "France",
+      "United Kingdom",
+      "Italy",
+      "Japan",
+      "Russia",
+      "China",
+      "United States of America",
+    ],
     source: "https://en.wikipedia.org/wiki/World_War_II",
   },
   {
